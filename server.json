@@ -1,0 +1,3670 @@
+{
+    "Movies": [
+        {
+            "id": "23041",
+            "title": "Arlequina em Aves de Rapina",
+            "originalTitle": "Birds of Prey (And the Fantabulous Emancipation of One Harley Quinn)",
+            "movieIdUrl": "",
+            "ancineId": "E1900628800000",
+            "countryOrigin": "Estados Unidos",
+            "priority": 1,
+            "contentRating": "16 anos",
+            "duration": "108",
+            "rating": 0.0,
+            "synopsis": "Arlequina  Canário Negro , Caçadora (Mary Elizabeth Winstead), Cassandra Cain e a policial Renée Montoya  formam um grupo inusitado de heroínas. Quando um perigoso criminoso começa a causar destruição em Gotham, as cinco mulheres precisam se unir para defender a cidade.\n",
+            "cast": "Margot Robbie, Mary Elizabeth Winstead, Jurnee Smollett-Bell",
+            "director": "Cathy Yan",
+            "distributor": "Warner Bros",
+            "inPreSale": false,
+            "urlKey": "arlequina-em-aves-de-rapina",
+            "isPlaying": true,
+            "countIsPlaying": 389,
+            "premiereDate": {
+            "localDate": "2020-02-06T03:00:00+00:00",
+            "isToday": false,
+            "dayOfWeek": "quinta-feira",
+            "dayAndMonth": "06/02",
+            "hour": "03:00",
+            "year": "2020"
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "São Paulo",
+            "siteURL": "https://www.ingresso.com/sao-paulo/home/filmes/arlequina-em-aves-de-rapina",
+            "images": [
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/23041-cartaz.jpg",
+                "type": "PosterPortrait"
+            },
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/23041-destaque.jpg",
+                "type": "PosterHorizontal"
+            }
+            ],
+            "genres": [
+            "Ação",
+            "Aventura"
+            ],
+            "completeTags": [
+            {
+                "name": "Em Alta",
+                "background": "",
+                "color": ""
+            }
+            ],
+            "tags": [
+            "Em Alta"
+            ],
+            "trailers": [
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=PEvCzJulUZI",
+                "embeddedUrl": "//www.youtube.com/embed/PEvCzJulUZI"
+            },
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=PEvCzJulUZI",
+                "embeddedUrl": "//www.youtube.com/embed/PEvCzJulUZI"
+            }
+            ],
+            "boxOfficeId": "25983",
+            "partnershipType": "",
+            "rottenTomatoe": {
+            "id": "78566114-a33b-3c58-8a31-42bdb19ec6bd",
+            "criticsRating": "Certified",
+            "criticsScore": "82",
+            "audienceRating": "Upright",
+            "audienceScore": "85",
+            "originalUrl": "https://www.rottentomatoes.com/m/771498825"
+            },
+            "showtimes": [
+                {
+                "id": "441",
+                "name": "Cinemark Boulevard Tatuapé",
+                "address": "R. Gonçalves Crespo",
+                "addressComplement": "LJS 420-421",
+                "number": "S/N",
+                "urlKey": "cinemark-boulevard-tatuape",
+                "neighborhood": "Tatuapé",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-boulevard-tatuape",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 1",
+                    "sessions": [
+                        {
+                        "id": "64557182",
+                        "price": 67.25,
+                        "type": [
+                            "Legendado",
+                            "D-Box"
+                        ],
+                        "types": [
+                            {
+                            "id": 4096,
+                            "name": "D-Box",
+                            "alias": "D-BOX",
+                            "display": true
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "time": "21:30",
+                        "defaultSector": "77010",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64557182/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 3",
+                    "sessions": [
+                        {
+                        "id": "64557220",
+                        "price": 67.25,
+                        "type": [
+                            "Dublado",
+                            "D-Box"
+                        ],
+                        "types": [
+                            {
+                            "id": 4096,
+                            "name": "D-Box",
+                            "alias": "D-BOX",
+                            "display": true
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:40",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:40",
+                            "year": "2020"
+                        },
+                        "time": "20:40",
+                        "defaultSector": "83454",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64557220/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 4",
+                    "sessions": [
+                        {
+                        "id": "64557168",
+                        "price": 36.48,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "time": "19:50",
+                        "defaultSector": "1550",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64557168/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.53893,
+                    "lng": -46.57638
+                }
+                },
+                {
+                "id": "312",
+                "name": "Cinemark Center Norte",
+                "address": "Travessa Casalbuono",
+                "addressComplement": "Lj 503",
+                "number": "127",
+                "urlKey": "cinemark-center-norte",
+                "neighborhood": "Vila Guilherme",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-center-norte",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 1",
+                    "sessions": [
+                        {
+                        "id": "64432352",
+                        "price": 38.76,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:40",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:40",
+                            "year": "2020"
+                        },
+                        "time": "20:40",
+                        "defaultSector": "4576188",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64432352/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 2",
+                    "sessions": [
+                        {
+                        "id": "64573209",
+                        "price": 38.76,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "time": "19:50",
+                        "defaultSector": "4575997",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64573209/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        },
+                        {
+                        "id": "64573182",
+                        "price": 38.76,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:20",
+                            "year": "2020"
+                        },
+                        "time": "22:20",
+                        "defaultSector": "4575997",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64573182/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 5",
+                    "sessions": [
+                        {
+                        "id": "64573282",
+                        "price": 38.76,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "time": "21:30",
+                        "defaultSector": "4576000",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64573282/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.51526,
+                    "lng": -46.61755
+                }
+                },
+                {
+                "id": "676",
+                "name": "Cinemark Cidade Jardim",
+                "address": "Av. Magalhães de Castro",
+                "addressComplement": "Shopping Cidade Jardim",
+                "number": "12000",
+                "urlKey": "cinemark-cidade-jardim",
+                "neighborhood": "Morumbi",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-cidade-jardim",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Bradesco Prime 2",
+                    "sessions": [
+                        {
+                        "id": "64574679",
+                        "price": 80.93,
+                        "type": [
+                            "Legendado",
+                            "Vip"
+                        ],
+                        "types": [
+                            {
+                            "id": 2,
+                            "name": "Vip",
+                            "alias": "VIP",
+                            "display": true
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "time": "21:30",
+                        "defaultSector": "4359881",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64574679/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Bradesco Prime 4",
+                    "sessions": [
+                        {
+                        "id": "64574731",
+                        "price": 80.93,
+                        "type": [
+                            "Legendado",
+                            "Vip"
+                        ],
+                        "types": [
+                            {
+                            "id": 2,
+                            "name": "Vip",
+                            "alias": "VIP",
+                            "display": true
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "time": "19:50",
+                        "defaultSector": "4359910",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64574731/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        },
+                        {
+                        "id": "64574751",
+                        "price": 80.93,
+                        "type": [
+                            "Legendado",
+                            "Vip"
+                        ],
+                        "types": [
+                            {
+                            "id": 2,
+                            "name": "Vip",
+                            "alias": "VIP",
+                            "display": true
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:20",
+                            "year": "2020"
+                        },
+                        "time": "22:20",
+                        "defaultSector": "4359910",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64574751/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.59903,
+                    "lng": -46.69773
+                }
+                },
+                {
+                "id": "1313",
+                "name": "Cinemark Shopping Cidade São Paulo",
+                "address": "Avenida Paulista",
+                "addressComplement": "Shopping Cidade São Paulo - 4 ANDAR",
+                "number": "1230",
+                "urlKey": "cinemark-shopping-cidade-sao-paulo",
+                "neighborhood": "Bela Vista",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-shopping-cidade-sao-paulo",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 2",
+                    "sessions": [
+                        {
+                        "id": "64431815",
+                        "price": 43.32,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:40",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:40",
+                            "year": "2020"
+                        },
+                        "time": "20:40",
+                        "defaultSector": "6149",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64431815/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 3",
+                    "sessions": [
+                        {
+                        "id": "64579006",
+                        "price": 43.32,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "time": "21:30",
+                        "defaultSector": "6150",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64579006/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 4",
+                    "sessions": [
+                        {
+                        "id": "64578998",
+                        "price": 43.32,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "time": "19:50",
+                        "defaultSector": "6151",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64578998/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.56348,
+                    "lng": -46.65266
+                }
+                },
+                {
+                "id": "954",
+                "name": "Cinemark Móoca",
+                "address": "Rua  Cap Pacheco e Chaves",
+                "addressComplement": "Mooca Plaza",
+                "number": "313",
+                "urlKey": "cinemark-mooca",
+                "neighborhood": "Vila Prudente",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-mooca",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 1",
+                    "sessions": [
+                        {
+                        "id": "64432233",
+                        "price": 43.32,
+                        "type": [
+                            "Legendado",
+                            "XD"
+                        ],
+                        "types": [
+                            {
+                            "id": 32,
+                            "name": "XD",
+                            "alias": "XD",
+                            "display": true
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:40",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:40",
+                            "year": "2020"
+                        },
+                        "time": "20:40",
+                        "defaultSector": "3760",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64432233/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 3",
+                    "sessions": [
+                        {
+                        "id": "64584149",
+                        "price": 38.76,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:30",
+                            "year": "2020"
+                        },
+                        "time": "21:30",
+                        "defaultSector": "3762",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64584149/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 4",
+                    "sessions": [
+                        {
+                        "id": "64584147",
+                        "price": 38.76,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "time": "19:50",
+                        "defaultSector": "3763",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64584147/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.57975,
+                    "lng": -46.59441
+                }
+                }
+            ]
+
+        },
+
+        {
+            "id": "23040",
+            "title": "Bad Boys Para Sempre",
+            "originalTitle": "Bad Boys For Life",
+            "movieIdUrl": "www.movieid.com/badboysparasempre",
+            "ancineId": "E1900525600000",
+            "countryOrigin": "Estados Unidos",
+            "priority": 2,
+            "contentRating": "16 anos",
+            "duration": "124",
+            "rating": 0.0,
+            "synopsis": "Os Bad Boys Mike Lowrey  e Marcus Burnett estão de volta para uma última missão no esperado Bad Boys Para Sempre.",
+            "cast": "Will Smith, Martin Lawrence, Joe Pantoliano",
+            "director": "Adil El Arbi, Bilall Fallah",
+            "distributor": "Sony Pictures",
+            "inPreSale": false,
+            "urlKey": "bad-boys-para-sempre",
+            "isPlaying": true,
+            "countIsPlaying": 370,
+            "premiereDate": {
+            "localDate": "2020-01-30T03:00:00+00:00",
+            "isToday": false,
+            "dayOfWeek": "quinta-feira",
+            "dayAndMonth": "30/01",
+            "hour": "03:00",
+            "year": "2020"
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "São Paulo",
+            "siteURL": "https://www.ingresso.com/sao-paulo/home/filmes/bad-boys-para-sempre",
+            "images": [
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/23040-cartaz.jpg",
+                "type": "PosterPortrait"
+            },
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/23040-destaque.jpg",
+                "type": "PosterHorizontal"
+            }
+            ],
+            "genres": [
+            "Ação",
+            "Comédia"
+            ],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=LwCL_LFtrgc",
+                "embeddedUrl": "//www.youtube.com/embed/LwCL_LFtrgc"
+            },
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=LwCL_LFtrgc",
+                "embeddedUrl": "//www.youtube.com/embed/LwCL_LFtrgc"
+            }
+            ],
+            "boxOfficeId": "9678",
+            "partnershipType": "",
+            "rottenTomatoe": {
+            "id": "262a9c51-54fb-3a7b-ba38-c8d8042ada8b",
+            "criticsRating": "Certified",
+            "criticsScore": "77",
+            "audienceRating": "Upright",
+            "audienceScore": "96",
+            "originalUrl": "https://www.rottentomatoes.com/m/771041662"
+            },
+            "showtimes": [
+                {
+                "id": "678",
+                "name": "UCI Santana",
+                "address": "Rua Conselheiro Moreira de Barros",
+                "addressComplement": "LUC 4000",
+                "number": "2780",
+                "urlKey": "uci-santana",
+                "neighborhood": "Lauzane Paulista",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Impressão",
+                    "Bilheteria/ATM"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/uci-santana",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 2",
+                    "sessions": [
+                        {
+                        "id": "64580279",
+                        "price": 37.62,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "time": "19:45",
+                        "defaultSector": "6626",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64580279/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        },
+                        {
+                        "id": "64580334",
+                        "price": 37.62,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:25:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:25",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:25:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:25",
+                            "year": "2020"
+                        },
+                        "time": "22:25",
+                        "defaultSector": "6626",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64580334/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.4831,
+                    "lng": -46.64523
+                }
+                },
+                {
+                "id": "154",
+                "name": "Cinemark Shopping D",
+                "address": "Av. Cruzeiro do Sul",
+                "addressComplement": "Piso Superior",
+                "number": "1100",
+                "urlKey": "cinemark-shopping-d",
+                "neighborhood": "Ponte Pequena",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-shopping-d",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 10",
+                    "sessions": [
+                        {
+                        "id": "64583997",
+                        "price": 34.2,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:00",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:00",
+                            "year": "2020"
+                        },
+                        "time": "21:00",
+                        "defaultSector": "598",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64583997/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 7",
+                    "sessions": [
+                        {
+                        "id": "64584037",
+                        "price": 34.2,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "time": "19:45",
+                        "defaultSector": "595",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64584037/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        },
+                        {
+                        "id": "64584024",
+                        "price": 34.2,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:30",
+                            "year": "2020"
+                        },
+                        "time": "22:30",
+                        "defaultSector": "595",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64584024/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.52176,
+                    "lng": -46.62408
+                }
+                },
+                {
+                "id": "349",
+                "name": "Cinemark Shopping Interlagos",
+                "address": "Av. Interlagos",
+                "addressComplement": "Loja 157A",
+                "number": "2255",
+                "urlKey": "cinemark-shopping-interlagos",
+                "neighborhood": "Vila Inglesa",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-shopping-interlagos",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 10",
+                    "sessions": [
+                        {
+                        "id": "64541966",
+                        "price": 33.06,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:20",
+                            "year": "2020"
+                        },
+                        "time": "20:20",
+                        "defaultSector": "7532",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64541966/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 7",
+                    "sessions": [
+                        {
+                        "id": "64541895",
+                        "price": 33.06,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:20",
+                            "year": "2020"
+                        },
+                        "time": "21:20",
+                        "defaultSector": "7529",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64541895/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 8",
+                    "sessions": [
+                        {
+                        "id": "64541886",
+                        "price": 33.06,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:20",
+                            "year": "2020"
+                        },
+                        "time": "22:20",
+                        "defaultSector": "7530",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64541886/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.67579,
+                    "lng": -46.67607
+                }
+                },
+                {
+                "id": "378",
+                "name": "Cinemark SP Market",
+                "address": "Av. das Nações Unidas",
+                "addressComplement": "Bloco C",
+                "number": "22540 ",
+                "urlKey": "cinemark-sp-market",
+                "neighborhood": "Campo Grande",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-sp-market",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 2",
+                    "sessions": [
+                        {
+                        "id": "64553234",
+                        "price": 37.62,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:20",
+                            "year": "2020"
+                        },
+                        "time": "21:20",
+                        "defaultSector": "1262",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64553234/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 5",
+                    "sessions": [
+                        {
+                        "id": "64553017",
+                        "price": 37.62,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:20",
+                            "year": "2020"
+                        },
+                        "time": "22:20",
+                        "defaultSector": "1265",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64553017/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 7",
+                    "sessions": [
+                        {
+                        "id": "64553102",
+                        "price": 37.62,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:20",
+                            "year": "2020"
+                        },
+                        "time": "20:20",
+                        "defaultSector": "1267",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64553102/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.67836,
+                    "lng": -46.6989
+                }
+                },
+                {
+                "id": "292",
+                "name": "Cinemark Metrô Tatuapé",
+                "address": "R. Domingos de Agostim",
+                "addressComplement": "Piso G2",
+                "number": "91",
+                "urlKey": "cinemark-metro-tatuape",
+                "neighborhood": "Tatuapé",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-metro-tatuape",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 3",
+                    "sessions": [
+                        {
+                        "id": "64573416",
+                        "price": 35.34,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:20",
+                            "year": "2020"
+                        },
+                        "time": "20:20",
+                        "defaultSector": "33297",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64573416/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 6",
+                    "sessions": [
+                        {
+                        "id": "64573497",
+                        "price": 35.34,
+                        "type": [
+                            "Dublado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Dublado",
+                            "alias": "DUB",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:40",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:40:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:40",
+                            "year": "2020"
+                        },
+                        "time": "21:40",
+                        "defaultSector": "33292",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64573497/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.5417,
+                    "lng": -46.57672
+                }
+                }
+            ]
+        },
+
+        {
+            "id": "22970",
+            "title": "1917",
+            "originalTitle": "1917",
+            "movieIdUrl": "",
+            "ancineId": "E1900439000000",
+            "countryOrigin": "Reino Unido, Estados Unidos",
+            "priority": 3,
+            "contentRating": "14 anos",
+            "duration": "119",
+            "rating": 0.0,
+            "synopsis": "Em um dos momentos críticos da Primeira Guerra Mundial, dois soldados britânicos, Schofield e Blake, recebem uma missão aparentemente impossível. Em uma corrida contra o tempo, eles devem cruzar o território inimigo e entregar uma mensagem que cessará o brutal ataque a milhares de combatentes - entre eles, o irmão de Blake.",
+            "cast": "George MacKay, Dean-Charles Chapman, Mark Strong",
+            "director": "Sam Mendes",
+            "distributor": "Universal Pictures Brasil",
+            "inPreSale": false,
+            "urlKey": "1917",
+            "isPlaying": true,
+            "countIsPlaying": 259,
+            "premiereDate": {
+            "localDate": "2020-01-23T03:00:00+00:00",
+            "isToday": false,
+            "dayOfWeek": "quinta-feira",
+            "dayAndMonth": "23/01",
+            "hour": "03:00",
+            "year": "2020"
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "São Paulo",
+            "siteURL": "https://www.ingresso.com/sao-paulo/home/filmes/1917",
+            "images": [
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/22970-cartaz.jpg",
+                "type": "PosterPortrait"
+            },
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/22970-destaque.jpg",
+                "type": "PosterHorizontal"
+            }
+            ],
+            "genres": [
+            "Drama",
+            "Guerra"
+            ],
+            "completeTags": [
+            {
+                "name": "Oscar 2020",
+                "background": "",
+                "color": ""
+            }
+            ],
+            "tags": [
+            "Oscar 2020"
+            ],
+            "trailers": [
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=7WP2O8j9Mhk",
+                "embeddedUrl": "//www.youtube.com/embed/7WP2O8j9Mhk"
+            },
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=7WP2O8j9Mhk",
+                "embeddedUrl": "//www.youtube.com/embed/7WP2O8j9Mhk"
+            }
+            ],
+            "boxOfficeId": "25957",
+            "partnershipType": "",
+            "rottenTomatoe": {
+            "id": "a1ab7c81-56dc-3542-9701-d53e9fa9b560",
+            "criticsRating": "Certified",
+            "criticsScore": "89",
+            "audienceRating": "Upright",
+            "audienceScore": "88",
+            "originalUrl": "https://www.rottentomatoes.com/m/771502350"
+            },
+            "showtimes": [
+                {
+                "id": "954",
+                "name": "Cinemark Móoca",
+                "address": "Rua  Cap Pacheco e Chaves",
+                "addressComplement": "Mooca Plaza",
+                "number": "313",
+                "urlKey": "cinemark-mooca",
+                "neighborhood": "Vila Prudente",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-mooca",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 2",
+                    "sessions": [
+                        {
+                        "id": "64584130",
+                        "price": 38.76,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:15:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:15",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:15:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:15",
+                            "year": "2020"
+                        },
+                        "time": "21:15",
+                        "defaultSector": "3761",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64584130/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 6",
+                    "sessions": [
+                        {
+                        "id": "64584170",
+                        "price": 38.76,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "time": "19:45",
+                        "defaultSector": "3765",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64584170/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.57975,
+                    "lng": -46.59441
+                }
+                },
+                {
+                "id": "132",
+                "name": "UCI Jardim Sul",
+                "address": "Av. Giovanni Gronchi",
+                "addressComplement": "501 a 511 M",
+                "number": "5819",
+                "urlKey": "uci-jardim-sul",
+                "neighborhood": "Vila Andrade",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Impressão",
+                    "Bilheteria/ATM"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/uci-jardim-sul",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 7",
+                    "sessions": [
+                        {
+                        "id": "64578633",
+                        "price": 46.74,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:05:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:05",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:05:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:05",
+                            "year": "2020"
+                        },
+                        "time": "20:05",
+                        "defaultSector": "8182",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64578633/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.63113,
+                    "lng": -46.73585
+                }
+                },
+                {
+                "id": "123",
+                "name": "Cinemark Pátio Higienópolis",
+                "address": "Av. Higienopolis",
+                "addressComplement": "",
+                "number": "646",
+                "urlKey": "cinemark-patio-higienopolis",
+                "neighborhood": "Higienópolis",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-patio-higienopolis",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 3",
+                    "sessions": [
+                        {
+                        "id": "64555092",
+                        "price": 44.46,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:15:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:15",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:15:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:15",
+                            "year": "2020"
+                        },
+                        "time": "20:15",
+                        "defaultSector": "385",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64555092/home",
+                        "hasSeatSelection": true,
+                        "enabled": false,
+                        "blockMessage": "Sessão lotada."
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.54287,
+                    "lng": -46.65796
+                }
+                },
+                {
+                "id": "1520",
+                "name": "PlayArte Multiplex - Ibirapuera ",
+                "address": "Av. Ibirapuera",
+                "addressComplement": "",
+                "number": "3103",
+                "urlKey": "playarte-multiplex-ibirapuera",
+                "neighborhood": "Indianópolis",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/playarte-multiplex-ibirapuera",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "SALA 2",
+                    "sessions": [
+                        {
+                        "id": "64586285",
+                        "price": 63.83,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:20",
+                            "year": "2020"
+                        },
+                        "time": "20:20",
+                        "defaultSector": "4359738",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64586285/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "SALA 6",
+                    "sessions": [
+                        {
+                        "id": "64558800",
+                        "price": 63.83,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:20",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:20:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:20",
+                            "year": "2020"
+                        },
+                        "time": "21:20",
+                        "defaultSector": "4359736",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64558800/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.57056,
+                    "lng": -46.64571
+                }
+                },
+                {
+                "id": "996",
+                "name": "Cinépolis JK Iguatemi",
+                "address": "Av. Presidente Juscelino Kubitschek",
+                "addressComplement": "lj 424",
+                "number": "2041",
+                "urlKey": "cinepolis-jk-iguatemi",
+                "neighborhood": "Vila Nova Conceição",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinepolis-jk-iguatemi",
+                "enabled": true,
+                "blockMessage": "Infelizmente estamos sem comunicação com o local.",
+                "rooms": [
+                    {
+                    "name": "Sala 6 - VIP",
+                    "sessions": [
+                        {
+                        "id": "64535857",
+                        "price": 88.91,
+                        "type": [
+                            "Legendado",
+                            "Normal",
+                            "Vip"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 2,
+                            "name": "Vip",
+                            "alias": "VIP",
+                            "display": true
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:10:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:10",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:10:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:10",
+                            "year": "2020"
+                        },
+                        "time": "22:10",
+                        "defaultSector": "596719",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64535857/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 8 - VIP",
+                    "sessions": [
+                        {
+                        "id": "64535863",
+                        "price": 88.91,
+                        "type": [
+                            "Legendado",
+                            "Normal",
+                            "Vip"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 2,
+                            "name": "Vip",
+                            "alias": "VIP",
+                            "display": true
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:30",
+                            "year": "2020"
+                        },
+                        "time": "20:30",
+                        "defaultSector": "596704",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64535863/home",
+                        "hasSeatSelection": true,
+                        "enabled": false,
+                        "blockMessage": "Sessão lotada."
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.59074,
+                    "lng": -46.68956
+                }
+                }
+            ]
+        },
+
+        {
+            "id": "23013",
+            "title": "Jojo Rabbit",
+            "originalTitle": "Jojo Rabbit",
+            "movieIdUrl": "",
+            "ancineId": "",
+            "countryOrigin": "Estados Unidos",
+            "priority": 4,
+            "contentRating": "14 anos",
+            "duration": "108",
+            "rating": 0.0,
+            "synopsis": "O diretor e roteirista Taika Waititi traz seu estilo de humor para o seu mais recente filme, uma sátira da Segunda Guerra Mundial que acompanha um garoto alemão solitário. A visão de mundo de Jojo vira de cabeça para baixo quando ele descobre que sua mãe solteira está escondendo uma jovem judia em seu sótão. Com a ajuda apenas de seu amigo imaginário idiota, Adolf Hitler, Jojo deve confrontar seu nacionalismo cego. Vencedor do prêmio de melhor filme pelo público no Festival de Toronto 2019.",
+            "cast": "Roman Griffin Davis, Taika Waititi, Scarlett Johansson",
+            "director": "Taika Waititi",
+            "distributor": "Fox Film",
+            "inPreSale": false,
+            "urlKey": "jojo-rabbit",
+            "isPlaying": true,
+            "countIsPlaying": 118,
+            "premiereDate": {
+            "localDate": "2020-02-06T03:00:00+00:00",
+            "isToday": false,
+            "dayOfWeek": "quinta-feira",
+            "dayAndMonth": "06/02",
+            "hour": "03:00",
+            "year": "2020"
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "São Paulo",
+            "siteURL": "https://www.ingresso.com/sao-paulo/home/filmes/jojo-rabbit",
+            "images": [
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/23013-cartaz.jpg",
+                "type": "PosterPortrait"
+            },
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/23013-destaque.jpg",
+                "type": "PosterHorizontal"
+            }
+            ],
+            "genres": [
+            "Comédia",
+            "Guerra"
+            ],
+            "completeTags": [
+            {
+                "name": "Culturais",
+                "background": "",
+                "color": ""
+            },
+            {
+                "name": "Em Alta",
+                "background": "",
+                "color": ""
+            },
+            {
+                "name": "Oscar 2020",
+                "background": "",
+                "color": ""
+            }
+            ],
+            "tags": [
+            "Culturais",
+            "Em Alta",
+            "Oscar 2020"
+            ],
+            "trailers": [
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=ClV3mHr5Go0",
+                "embeddedUrl": "//www.youtube.com/embed/ClV3mHr5Go0"
+            },
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=ClV3mHr5Go0",
+                "embeddedUrl": "//www.youtube.com/embed/ClV3mHr5Go0"
+            }
+            ],
+            "boxOfficeId": "34335",
+            "partnershipType": "",
+            "rottenTomatoe": {
+            "id": "ccc99df7-c656-3434-81bf-1faf6a059398",
+            "criticsRating": "Certified",
+            "criticsScore": "80",
+            "audienceRating": "Upright",
+            "audienceScore": "95",
+            "originalUrl": "https://www.rottentomatoes.com/m/771508645"
+            },
+            "showtimes": [
+                {
+                "id": "675",
+                "name": "Espaço Itaú de Cinema - Pompéia",
+                "address": "Rua Palestra Itália",
+                "addressComplement": "",
+                "number": "500",
+                "urlKey": "espaco-itau-de-cinema-pompeia",
+                "neighborhood": "Água Branca",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Impressão",
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/espaco-itau-de-cinema-pompeia",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 3",
+                    "sessions": [
+                        {
+                        "id": "64567314",
+                        "price": 43.29,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:50:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:50",
+                            "year": "2020"
+                        },
+                        "time": "19:50",
+                        "defaultSector": "2357",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64567314/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        },
+                        {
+                        "id": "64567321",
+                        "price": 43.29,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:00",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:00",
+                            "year": "2020"
+                        },
+                        "time": "22:00",
+                        "defaultSector": "2357",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64567321/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 6",
+                    "sessions": [
+                        {
+                        "id": "64567268",
+                        "price": 43.29,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:30",
+                            "year": "2020"
+                        },
+                        "time": "20:30",
+                        "defaultSector": "2360",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64567268/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.52787,
+                    "lng": -46.68033
+                }
+                },
+                {
+                "id": "131",
+                "name": "UCI Analia Franco",
+                "address": "Av. Regente Feijó",
+                "addressComplement": "Quadra A",
+                "number": "1759",
+                "urlKey": "uci-analia-franco",
+                "neighborhood": "Tatuapé",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Impressão",
+                    "Bilheteria/ATM"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/uci-analia-franco",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 4",
+                    "sessions": [
+                        {
+                        "id": "64549734",
+                        "price": 42.18,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:55:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:55",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:55:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:55",
+                            "year": "2020"
+                        },
+                        "time": "19:55",
+                        "defaultSector": "6863",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64549734/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 8",
+                    "sessions": [
+                        {
+                        "id": "64550135",
+                        "price": 42.18,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:30",
+                            "year": "2020"
+                        },
+                        "time": "22:30",
+                        "defaultSector": "7650",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64550135/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.56152,
+                    "lng": -46.56271
+                }
+                },
+                {
+                "id": "1520",
+                "name": "PlayArte Multiplex - Ibirapuera ",
+                "address": "Av. Ibirapuera",
+                "addressComplement": "",
+                "number": "3103",
+                "urlKey": "playarte-multiplex-ibirapuera",
+                "neighborhood": "Indianópolis",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/playarte-multiplex-ibirapuera",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "SALA 4",
+                    "sessions": [
+                        {
+                        "id": "64558792",
+                        "price": 63.83,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:00",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:00",
+                            "year": "2020"
+                        },
+                        "time": "20:00",
+                        "defaultSector": "4359735",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64558792/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.57056,
+                    "lng": -46.64571
+                }
+                },
+                {
+                "id": "1010",
+                "name": "Espaço Itaú de Cinema - Augusta",
+                "address": "R. Augusta",
+                "addressComplement": "",
+                "number": "1475",
+                "urlKey": "espaco-itau-de-cinema-augusta",
+                "neighborhood": "Cerqueira César",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Impressão",
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/espaco-itau-de-cinema-augusta",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 2",
+                    "sessions": [
+                        {
+                        "id": "64580632",
+                        "price": 43.29,
+                        "type": [
+                            "Legendado",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Legendado",
+                            "alias": "LEG",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:30",
+                            "year": "2020"
+                        },
+                        "time": "20:30",
+                        "defaultSector": "4186",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64580632/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.55664,
+                    "lng": -46.65837
+                }
+                }
+            ]
+        },
+
+        {
+            "id": "21529",
+            "title": "Minha Mãe é uma Peça 3",
+            "originalTitle": "Minha Mãe é uma Peça 3",
+            "movieIdUrl": "",
+            "ancineId": "B1900576900000",
+            "countryOrigin": "Brasil",
+            "priority": 5,
+            "contentRating": "12 anos",
+            "duration": "105",
+            "rating": 0.0,
+            "synopsis": "Dona Hermínia vai ter que se redescobrir e se reinventar porque seus filhos estão formando novas famílias. Essa supermãe vai ter que segurar a emoção para lidar com um novo cenário de vida: Marcelina está grávida e Juliano vai casar. Para completar, Carlos Alberto, seu ex-marido, que esteve sempre por perto, agora resolve ficar ainda mais próximo.\n\n",
+            "cast": "Paulo Gustavo, Mariana Xavier, Rodrigo Pandolfo, Herson Capri",
+            "director": "Susana Garcia",
+            "distributor": "Downtown Filmes",
+            "inPreSale": false,
+            "urlKey": "minha-mae-e-uma-peca-3",
+            "isPlaying": true,
+            "countIsPlaying": 363,
+            "premiereDate": {
+            "localDate": "2019-12-26T03:00:00+00:00",
+            "isToday": false,
+            "dayOfWeek": "quinta-feira",
+            "dayAndMonth": "26/12",
+            "hour": "03:00",
+            "year": "2019"
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "São Paulo",
+            "siteURL": "https://www.ingresso.com/sao-paulo/home/filmes/minha-mae-e-uma-peca-3",
+            "images": [
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21529-cartaz.jpg",
+                "type": "PosterPortrait"
+            },
+            {
+                "url": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21529-destaque.jpg",
+                "type": "PosterHorizontal"
+            }
+            ],
+            "genres": [
+            "Comédia"
+            ],
+            "completeTags": [
+            {
+                "name": "Família",
+                "background": "",
+                "color": ""
+            }
+            ],
+            "tags": [
+            "Família"
+            ],
+            "trailers": [
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=vQs31hCrUU8",
+                "embeddedUrl": "//www.youtube.com/embed/vQs31hCrUU8"
+            },
+            {
+                "type": "Youtube",
+                "url": "https://www.youtube.com/watch?v=vQs31hCrUU8",
+                "embeddedUrl": "//www.youtube.com/embed/vQs31hCrUU8"
+            }
+            ],
+            "boxOfficeId": "HO00001685",
+            "partnershipType": "",
+            "showtimes": [
+                {
+                "id": "877",
+                "name": "Cinépolis Largo XIII",
+                "address": "Amador Bueno",
+                "addressComplement": "Loja 20.001",
+                "number": "219",
+                "urlKey": "cinepolis-largo-xiii",
+                "neighborhood": "Santo Amaro",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinepolis-largo-xiii",
+                "enabled": true,
+                "blockMessage": "Infelizmente estamos sem comunicação com o local.",
+                "rooms": [
+                    {
+                    "name": "Sala 1",
+                    "sessions": [
+                        {
+                        "id": "64533954",
+                        "price": 35.34,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "time": "19:45",
+                        "defaultSector": "39092",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64533954/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        },
+                        {
+                        "id": "64533960",
+                        "price": 35.34,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:15:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:15",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:15:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:15",
+                            "year": "2020"
+                        },
+                        "time": "22:15",
+                        "defaultSector": "39092",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64533960/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.6529,
+                    "lng": -46.71099
+                }
+                },
+                {
+                "id": "409",
+                "name": "Cinemark Eldorado",
+                "address": "Av. Rebouças",
+                "addressComplement": "lj 410",
+                "number": "3970",
+                "urlKey": "cinemark-eldorado",
+                "neighborhood": "Pinheiros",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-eldorado",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 06",
+                    "sessions": [
+                        {
+                        "id": "64544869",
+                        "price": 46.74,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:00",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:00",
+                            "year": "2020"
+                        },
+                        "time": "21:00",
+                        "defaultSector": "1403",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64544869/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 07",
+                    "sessions": [
+                        {
+                        "id": "64544970",
+                        "price": 46.74,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T19:45:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "19:45",
+                            "year": "2020"
+                        },
+                        "time": "19:45",
+                        "defaultSector": "1404",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64544970/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.57234,
+                    "lng": -46.69506
+                }
+                },
+                {
+                "id": "154",
+                "name": "Cinemark Shopping D",
+                "address": "Av. Cruzeiro do Sul",
+                "addressComplement": "Piso Superior",
+                "number": "1100",
+                "urlKey": "cinemark-shopping-d",
+                "neighborhood": "Ponte Pequena",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-shopping-d",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 6",
+                    "sessions": [
+                        {
+                        "id": "64583806",
+                        "price": 34.2,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:00",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:00",
+                            "year": "2020"
+                        },
+                        "time": "20:00",
+                        "defaultSector": "594",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64583806/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        },
+                        {
+                        "id": "64583794",
+                        "price": 34.2,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:30",
+                            "year": "2020"
+                        },
+                        "time": "22:30",
+                        "defaultSector": "594",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64583794/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.52176,
+                    "lng": -46.62408
+                }
+                },
+                {
+                "id": "348",
+                "name": "Cinemark Aricanduva",
+                "address": "Av. Aricanduva / Salas 1 a 8 - Interlar Aricanduva / Salas 9 a 14 - Shopping Aricanduva corredor Auto Shopping",
+                "addressComplement": "Subsolo",
+                "number": "5555",
+                "urlKey": "cinemark-aricanduva",
+                "neighborhood": "Vila Matilde",
+                "properties": {
+                    "hasBomboniere": true
+                },
+                "deliveryType": [
+                    "Bilheteria/ATM",
+                    "Aplicativo/Scannerless"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/cinemark-aricanduva",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 12",
+                    "sessions": [
+                        {
+                        "id": "64554940",
+                        "price": 36.48,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T21:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:00",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T21:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "21:00",
+                            "year": "2020"
+                        },
+                        "time": "21:00",
+                        "defaultSector": "83477",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64554940/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 13",
+                    "sessions": [
+                        {
+                        "id": "64589316",
+                        "price": 36.48,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:00",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:00",
+                            "year": "2020"
+                        },
+                        "time": "20:00",
+                        "defaultSector": "83476",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64589316/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    },
+                    {
+                    "name": "Sala 7",
+                    "sessions": [
+                        {
+                        "id": "64584432",
+                        "price": 36.48,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:00",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:00:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:00",
+                            "year": "2020"
+                        },
+                        "time": "22:00",
+                        "defaultSector": "83471",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64584432/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.56602,
+                    "lng": -46.50407
+                }
+                },
+                {
+                "id": "678",
+                "name": "UCI Santana",
+                "address": "Rua Conselheiro Moreira de Barros",
+                "addressComplement": "LUC 4000",
+                "number": "2780",
+                "urlKey": "uci-santana",
+                "neighborhood": "Lauzane Paulista",
+                "properties": {
+                    "hasBomboniere": false
+                },
+                "deliveryType": [
+                    "Impressão",
+                    "Bilheteria/ATM"
+                ],
+                "siteURL": "https://www.ingresso.com/sao-paulo/home/cinemas/uci-santana",
+                "enabled": true,
+                "blockMessage": "",
+                "rooms": [
+                    {
+                    "name": "Sala 1",
+                    "sessions": [
+                        {
+                        "id": "64580247",
+                        "price": 37.62,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T20:05:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:05",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T20:05:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "20:05",
+                            "year": "2020"
+                        },
+                        "time": "20:05",
+                        "defaultSector": "7651",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64580247/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        },
+                        {
+                        "id": "64580249",
+                        "price": 37.62,
+                        "type": [
+                            "Nacional",
+                            "Normal"
+                        ],
+                        "types": [
+                            {
+                            "id": 1,
+                            "name": "Normal",
+                            "alias": "2D",
+                            "display": false
+                            },
+                            {
+                            "id": 0,
+                            "name": "Nacional",
+                            "alias": "NAC",
+                            "display": true
+                            }
+                        ],
+                        "date": {
+                            "localDate": "2020-02-09T22:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:30",
+                            "year": "2020"
+                        },
+                        "realDate": {
+                            "localDate": "2020-02-09T22:30:00-02:00",
+                            "isToday": true,
+                            "dayOfWeek": "domingo",
+                            "dayAndMonth": "09/02",
+                            "hour": "22:30",
+                            "year": "2020"
+                        },
+                        "time": "22:30",
+                        "defaultSector": "7651",
+                        "siteURL": "https://carrinho.ingresso.com/checkout/#/adicionar/64580249/home",
+                        "hasSeatSelection": true,
+                        "enabled": true,
+                        "blockMessage": ""
+                        }
+                    ]
+                    }
+                ],
+                "geolocation": {
+                    "lat": -23.4831,
+                    "lng": -46.64523
+                }
+                }
+            ]
+        }
+    ]
+}
