@@ -11,7 +11,7 @@ export const ContainerCentral = styled.div`
     height: 100%;
 
     span {
-        color:#FF890D;
+        color: #ff890d;
         font-size: 18px;
         font-weight: bold;
     }
@@ -53,23 +53,20 @@ export const MovieList = styled.ul`
     padding-top: 30px;
     margin-top: 16px;
 
-
     div {
         display: flex;
         flex-direction: column;
         width: 178px;
         height: 241px;
 
-
         img {
             width: 100%;
-            height: 100%
+            height: 100%;
         }
     }
 
     li {
         margin: 0 25px 124px 0;
-
 
         strong {
             color: #fff;
