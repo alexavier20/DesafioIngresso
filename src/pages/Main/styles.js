@@ -48,9 +48,9 @@ export const Filter = styled.div`
 export const MovieList = styled.ul`
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     border-top: 1px solid #fff;
-    padding-top: 16px;
+    padding-top: 30px;
     margin-top: 16px;
 
 
@@ -68,13 +68,12 @@ export const MovieList = styled.ul`
     }
 
     li {
+        margin: 0 25px 124px 0;
+
 
         strong {
             color: #fff;
             margin-top: 10px;
         }
-
     }
-
-
 `;

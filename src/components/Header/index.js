@@ -10,7 +10,6 @@ export default function Header() {
         <Link to="/">
             <img src={logo} alt="logo" />
         </Link>
-        <h2>Sao paulo</h2>
     </Container>
   );
 }
