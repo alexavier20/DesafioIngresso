@@ -13,6 +13,7 @@ export default function Main() {
         async function loadMovies() {
             const response = await api.get('/1/partnership/home');
             // const response = await api.get('/Movies');
+
             const { data } = response;
             setMovies(data);
         }

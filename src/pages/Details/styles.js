@@ -9,35 +9,88 @@ export const Container = styled.div`
 export const ContainerCentral = styled.div`
     width: 1020px;
     height: 100%;
+`;
+
+export const DetailsMovie = styled.div`
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 220px;
+        height: 323px;
+    }
+`;
+
+export const InformationMovie = styled.div`
+    margin-left: 24px;
+
+    h2 {
+        color: #ffffff;
+        margin-bottom: 12px;
+    }
+
+    p {
+        color: #ffffff;
+    }
+`;
+
+export const TagList = styled.ul`
+    display: flex;
+    margin-bottom: 12px;
 
     span {
-        color: #ff890d;
-        font-size: 18px;
         font-weight: bold;
+        background: #ff890d;
+        padding: 4px;
+        margin-right: 8px;
+    }
+`;
+
+export const Cast = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 280px;
+        padding: 0 16px 18px 0;
+
+        strong {
+            color: #ffffff;
+            font-size: 16px
+        }
+
+        span {
+            color: #ffffff;
+        }
     }
 `;
 
 export const TrailerList = styled.ul`
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
-
     list-style: none;
-    border-top: 1px solid #fff;
-    padding-top: 30px;
-    margin-top: 16px;
+    margin: 66px 0 32px 0;
 
     li {
-        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+
         embed {
-            width: 540px;
+            width: 480px;
             height: 320px;
+        }
+
+        span {
+            color: #fff;
+            font-weight: bold;
+            font-size: 22px;
+            margin-top: 10px;
         }
     }
 `;
-
-export const DetailsMovie = styled.div``;
-
-export const TagList = styled.ul``;
-
-export const Informations = styled.div``;
