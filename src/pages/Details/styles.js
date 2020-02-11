@@ -25,12 +25,12 @@ export const InformationMovie = styled.div`
     margin-left: 24px;
 
     h2 {
-        color: #ffffff;
+        color: #f2f2f2;
         margin-bottom: 12px;
     }
 
     p {
-        color: #ffffff;
+        color: #f2f2f2;
     }
 `;
 
@@ -59,12 +59,12 @@ export const Cast = styled.div`
         padding: 0 16px 18px 0;
 
         strong {
-            color: #ffffff;
-            font-size: 16px
+            color: #f2f2f2;
+            font-size: 16px;
         }
 
         span {
-            color: #ffffff;
+            color: #f2f2f2;
         }
     }
 `;
@@ -87,7 +87,7 @@ export const TrailerList = styled.ul`
         }
 
         span {
-            color: #fff;
+            color: #f2f2f2;
             font-weight: bold;
             font-size: 22px;
             margin-top: 10px;

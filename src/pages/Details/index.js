@@ -39,63 +39,101 @@ export default class Details extends Component {
                 <Container>
                     <ContainerCentral>
                         {movies
-                        .filter(x => x.event.id === idMovie)
-                        .map(movie => (
-                            <div key={movie.event.id}>
-                                <DetailsMovie>
+                            .filter(x => x.event.id === idMovie)
+                            .map(movie => (
+                                <div key={movie.event.id}>
+                                    <DetailsMovie>
                                         {movie.event.images
-                                                .filter(x => x.type === 'PosterPortrait')
-                                                .map(image => (
-                                                    <img src={image.url} alt={movie.title} />
-                                                ))}
+                                            .filter(
+                                                x => x.type === 'PosterPortrait'
+                                            )
+                                            .map(image => (
+                                                <img
+                                                    src={image.url}
+                                                    alt={movie.title}
+                                                />
+                                            ))}
 
                                         <InformationMovie>
                                             <h2>{movie.event.title}</h2>
                                             <TagList>
-                                                {movie.event.tags.map(tag =>(
+                                                {movie.event.tags.map(tag => (
                                                     <span>{tag}</span>
                                                 ))}
                                             </TagList>
                                             <p>{movie.event.synopsis}</p>
                                             <Cast>
                                                 <div>
-                                                    <strong>Nome Original</strong>
-                                                    <span>{movie.event.originalTitle}</span>
+                                                    <strong>
+                                                        Nome Original
+                                                    </strong>
+                                                    <span>
+                                                        {
+                                                            movie.event
+                                                                .originalTitle
+                                                        }
+                                                    </span>
                                                 </div>
                                                 <div>
                                                     <strong>Elenco</strong>
-                                                    <span>{movie.event.cast}</span>
+                                                    <span>
+                                                        {movie.event.cast}
+                                                    </span>
                                                 </div>
                                                 <div>
-                                                    <strong>Dirigido por</strong>
-                                                    <span>{movie.event.director}</span>
+                                                    <strong>
+                                                        Dirigido por
+                                                    </strong>
+                                                    <span>
+                                                        {movie.event.director}
+                                                    </span>
                                                 </div>
                                                 <div>
-                                                    <strong>País de Origem</strong>
-                                                    <span>{movie.event.countryOrigin}</span>
+                                                    <strong>
+                                                        País de Origem
+                                                    </strong>
+                                                    <span>
+                                                        {
+                                                            movie.event
+                                                                .countryOrigin
+                                                        }
+                                                    </span>
                                                 </div>
                                                 <div>
-                                                    <strong>Distribuidor</strong>
-                                                    <span>{movie.event.distributor}</span>
+                                                    <strong>
+                                                        Distribuidor
+                                                    </strong>
+                                                    <span>
+                                                        {
+                                                            movie.event
+                                                                .distributor
+                                                        }
+                                                    </span>
                                                 </div>
                                             </Cast>
                                         </InformationMovie>
                                     </DetailsMovie>
 
-                                {movie.event.trailers && (
-                                    <TrailerList>
-                                        {movie.event.trailers.map((trailer, index)=> (
-                                            <li key={index + 1} >
-                                                <embed src={trailer.embeddedUrl} />
-                                                <span>Trailer {index + 1}</span>
-                                            </li>
-                                        ))}
-                                    </TrailerList>
-
-                                )}
-
-                            </div>
-                        ))}
+                                    {movie.event.trailers && (
+                                        <TrailerList>
+                                            {movie.event.trailers.map(
+                                                (trailer, index) => (
+                                                    <li key={index + 1}>
+                                                        <embed
+                                                            src={
+                                                                trailer.embeddedUrl
+                                                            }
+                                                        />
+                                                        <span>
+                                                            Trailer {index + 1}
+                                                        </span>
+                                                    </li>
+                                                )
+                                            )}
+                                        </TrailerList>
+                                    )}
+                                </div>
+                            ))}
                     </ContainerCentral>
                 </Container>
             </>
