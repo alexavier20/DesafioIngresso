@@ -32,9 +32,10 @@ export const ContainerError = styled.div`
 
 export const Filter = styled.div`
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 42px;
+    justify-content: flex-end;
+    flex: 1;
+
+    margin-bottom: 18px;
 
     div {
         display: flex;
@@ -50,19 +51,6 @@ export const Filter = styled.div`
     input {
         height: 16px;
         width: 16px;
-    }
-`;
-
-export const FilterLeft = styled.ul`
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    width: 600px;
-
-    li {
-        display: flex;
-        margin-bottom: 8px;
-        width: 120px;
     }
 `;
 

@@ -21,6 +21,6 @@ export default createGlobalStyle`
     body, input, button {
         color: #222;
         font-size: 14px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Proxima Nova","Trebuchet MS","Proxima Nova Bold",sans-serif,Arial;
     }
 `;

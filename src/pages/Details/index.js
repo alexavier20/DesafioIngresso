@@ -3,7 +3,6 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
 
-import Header from '../../components/Header';
 import api from '../../services/api';
 
 import {
@@ -14,7 +13,11 @@ import {
     TagList,
     Cast,
     ContainerCentral,
+    Sinopse,
+    ContainerBanner,
 } from './styles';
+
+import Header from '../../components/Header';
 
 export default class Details extends Component {
     state = {
@@ -35,13 +38,28 @@ export default class Details extends Component {
 
         return (
             <>
-                <Header />
+            <Header />
                 <Container>
-                    <ContainerCentral>
-                        {movies
-                            .filter(x => x.event.id === idMovie)
+                <ContainerCentral>
+                        {movies.filter(x => x.event.id === idMovie)
                             .map(movie => (
                                 <div key={movie.event.id}>
+                                    {movie.event.images
+                                        .filter(
+                                            x => x.type === 'PosterHorizontal'
+                                        )
+                                        .map(image => (
+                                            <ContainerBanner>
+                                                <img
+                                                    src={image.url}
+                                                    alt={movie.title}
+                                                />
+                                            </ContainerBanner>
+                                        ))}
+
+
+
+
                                     <DetailsMovie>
                                         {movie.event.images
                                             .filter(
@@ -55,13 +73,18 @@ export default class Details extends Component {
                                             ))}
 
                                         <InformationMovie>
-                                            <h2>{movie.event.title}</h2>
+                                            <h1>{movie.event.title}</h1>
                                             <TagList>
                                                 {movie.event.tags.map(tag => (
                                                     <span>{tag}</span>
                                                 ))}
                                             </TagList>
-                                            <p>{movie.event.synopsis}</p>
+                                            <Sinopse>
+                                                <div>
+                                                    <strong>Sinopse</strong>
+                                                    <span>{movie.event.synopsis}</span>
+                                                </div>
+                                            </Sinopse>
                                             <Cast>
                                                 <div>
                                                     <strong>
@@ -115,25 +138,31 @@ export default class Details extends Component {
                                     </DetailsMovie>
 
                                     {movie.event.trailers && (
-                                        <TrailerList>
-                                            {movie.event.trailers.map(
-                                                (trailer, index) => (
-                                                    <li key={index + 1}>
-                                                        <embed
-                                                            src={
-                                                                trailer.embeddedUrl
-                                                            }
-                                                        />
-                                                        <span>
-                                                            Trailer {index + 1}
-                                                        </span>
-                                                    </li>
-                                                )
-                                            )}
-                                        </TrailerList>
+                                        <>
+                                            <TrailerList>
+                                                {movie.event.trailers.map(
+                                                    (trailer, index) => (
+                                                        <li key={index + 1}>
+                                                            <div>
+                                                                <span>
+                                                                    Trailer {index + 1}
+                                                                </span>
+                                                                <embed
+                                                                    src={
+                                                                        trailer.embeddedUrl
+                                                                    }
+                                                                />
+                                                            </div>
+                                                        </li>
+                                                    )
+                                                )}
+                                            </TrailerList>
+                                        </>
                                     )}
-                                </div>
-                            ))}
+
+                            </div>
+
+                        ))}
                     </ContainerCentral>
                 </Container>
             </>

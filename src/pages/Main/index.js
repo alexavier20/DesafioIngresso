@@ -8,7 +8,6 @@ import {
     ContainerCentral,
     ContainerError,
     Filter,
-    FilterLeft,
     FilterRight,
 } from './styles';
 import error from '../../assets/images/error.jpeg';
@@ -24,9 +23,7 @@ export default function Main() {
         setLocation(e.target.value);
     }
 
-    function handleSearchChange(e) {
-        setSearch(e.target.value);
-
+    useEffect(() => {
         const moviesTemp = JSON.parse(localStorage.getItem('movies'));
 
         if (moviesTemp) {
@@ -37,10 +34,8 @@ export default function Main() {
             });
 
             setMovies(result);
-
-            console.log(search);
         }
-    }
+    }, [search])
 
     useEffect(() => {
         async function loadMovies() {
@@ -61,60 +56,6 @@ export default function Main() {
             <Container>
                 <ContainerCentral>
                     <Filter>
-                        <FilterLeft>
-                            <li>
-                                <input type="checkbox" name="2d" value="2D" />
-                                <span>2D</span>
-                            </li>
-
-                            <li>
-                                <input type="checkbox" name="dub" value="DUB" />
-                                <span>DUB</span>
-                            </li>
-
-                            <li>
-                                <input type="checkbox" name="3d" value="3D" />
-                                <span>3D</span>
-                            </li>
-
-                            <li>
-                                <input
-                                    type="checkbox"
-                                    name="d-box"
-                                    value="D-BOX"
-                                />
-                                <span>D-BOX</span>
-                            </li>
-
-                            <li>
-                                <input type="checkbox" name="leg" value="LEG" />
-                                <span>LEG</span>
-                            </li>
-
-                            <li>
-                                <input type="checkbox" name="xd" value="XD" />
-                                <span>XD</span>
-                            </li>
-
-                            <li>
-                                <input type="checkbox" name="vip" value="VIP" />
-                                <span>VIP</span>
-                            </li>
-
-                            <li>
-                                <input type="checkbox" name="4d" value="4D" />
-                                <span>4D</span>
-                            </li>
-
-                            <li>
-                                <input
-                                    type="checkbox"
-                                    name="cinepolis"
-                                    value="Cinépic"
-                                />
-                                <span>Cinépic</span>
-                            </li>
-                        </FilterLeft>
                         <FilterRight>
                             <div>
                                 <MdSearch color="#ff890d" size={24} />
@@ -122,9 +63,7 @@ export default function Main() {
                                     type="text"
                                     placeholder="Buscar"
                                     value={search}
-                                    onChange={e =>
-                                        handleSearchChange(e, 'value')
-                                    }
+                                    onChange={e => setSearch(e.target.value)}
                                 />
                             </div>
                             <div>
@@ -137,14 +76,13 @@ export default function Main() {
                                 >
                                     <option value="1">São Paulo</option>
                                     <option value="2">Rio de Janeiro</option>
-                                    <option value="50000">Teste</option>
                                 </select>
                             </div>
                         </FilterRight>
                     </Filter>
                     <span>Em Cartaz</span>
 
-                    {movies ? (
+                    {movies.length > 0 ? (
                         <MovieList>
                             {movies.map(movie => (
                                 <li key={movie.event.id}>

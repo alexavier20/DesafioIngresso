@@ -11,20 +11,32 @@ export const ContainerCentral = styled.div`
     height: 100%;
 `;
 
+export const ContainerBanner = styled.div`
+
+    img {
+        width: 100%;
+        margin-top: -97px;
+    }
+`;
+
 export const DetailsMovie = styled.div`
     display: flex;
     justify-content: center;
+    margin-top: -135px;
 
     img {
-        width: 220px;
-        height: 323px;
+        border-radius: 50%;
+        height: 222px;
+        width: 222px;
+        border: 4px solid #f2f2f2;
+        margin-left: 38px;
     }
 `;
 
 export const InformationMovie = styled.div`
     margin-left: 24px;
 
-    h2 {
+    h1 {
         color: #f2f2f2;
         margin-bottom: 12px;
     }
@@ -42,7 +54,31 @@ export const TagList = styled.ul`
         font-weight: bold;
         background: #ff890d;
         padding: 4px;
-        margin-right: 8px;
+        margin: 0 8px 66px 0;
+    }
+`;
+
+export const Sinopse = styled.div`
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+        strong {
+            color: #3478C1;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        span {
+            color: #f2f2f2;
+        }
     }
 `;
 
@@ -59,7 +95,7 @@ export const Cast = styled.div`
         padding: 0 16px 18px 0;
 
         strong {
-            color: #f2f2f2;
+            color: #3478C1;
             font-size: 16px;
         }
 
@@ -71,26 +107,51 @@ export const Cast = styled.div`
 
 export const TrailerList = styled.ul`
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
-    margin: 66px 0 32px 0;
+    margin: 16px 0 32px 0;
 
     li {
         display: flex;
         flex-direction: column;
-        margin-top: 16px;
+        margin: 16px 0 42px 0;
+        width: 100%;
 
         embed {
-            width: 480px;
             height: 320px;
+            width: 100%;
+
         }
 
         span {
-            color: #f2f2f2;
+            color: #ff890d;
             font-weight: bold;
             font-size: 22px;
-            margin-top: 10px;
+            margin: 12px
         }
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #252525;
+            padding: 24px;
+            border-radius: 4px;
+        }
+    }
+`;
+
+
+export const FilterLeft = styled.ul`
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 600px;
+
+    li {
+        display: flex;
+        margin-bottom: 8px;
+        width: 120px;
     }
 `;

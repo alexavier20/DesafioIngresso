@@ -1,16 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background: #000;
+    background: rgba(0, 0, 0, 0.92);
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 8px;
+    position: relative;
+
 
 
     img {
-        width:80px;
-        height:80px;
+        width:48px;
+        height:48px;
         margin-left: 30px;
     }
 `;
