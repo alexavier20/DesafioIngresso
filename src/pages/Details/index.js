@@ -38,10 +38,11 @@ export default class Details extends Component {
 
         return (
             <>
-            <Header />
+                <Header />
                 <Container>
-                <ContainerCentral>
-                        {movies.filter(x => x.event.id === idMovie)
+                    <ContainerCentral>
+                        {movies
+                            .filter(x => x.event.id === idMovie)
                             .map(movie => (
                                 <div key={movie.event.id}>
                                     {movie.event.images
@@ -56,9 +57,6 @@ export default class Details extends Component {
                                                 />
                                             </ContainerBanner>
                                         ))}
-
-
-
 
                                     <DetailsMovie>
                                         {movie.event.images
@@ -82,7 +80,9 @@ export default class Details extends Component {
                                             <Sinopse>
                                                 <div>
                                                     <strong>Sinopse</strong>
-                                                    <span>{movie.event.synopsis}</span>
+                                                    <span>
+                                                        {movie.event.synopsis}
+                                                    </span>
                                                 </div>
                                             </Sinopse>
                                             <Cast>
@@ -145,7 +145,8 @@ export default class Details extends Component {
                                                         <li key={index + 1}>
                                                             <div>
                                                                 <span>
-                                                                    Trailer {index + 1}
+                                                                    Trailer{' '}
+                                                                    {index + 1}
                                                                 </span>
                                                                 <embed
                                                                     src={
@@ -159,10 +160,8 @@ export default class Details extends Component {
                                             </TrailerList>
                                         </>
                                     )}
-
-                            </div>
-
-                        ))}
+                                </div>
+                            ))}
                     </ContainerCentral>
                 </Container>
             </>

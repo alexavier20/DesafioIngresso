@@ -9,6 +9,7 @@ import {
     ContainerError,
     Filter,
     FilterRight,
+    BackgroundMovies,
 } from './styles';
 import error from '../../assets/images/error.jpeg';
 import Header from '../../components/Header';
@@ -24,20 +25,6 @@ export default function Main() {
     }
 
     useEffect(() => {
-        const moviesTemp = JSON.parse(localStorage.getItem('movies'));
-
-        if (moviesTemp) {
-            const result = moviesTemp.filter(m => {
-                return m.event.title
-                    .toLowerCase()
-                    .includes(search.toLowerCase());
-            });
-
-            setMovies(result);
-        }
-    }, [search])
-
-    useEffect(() => {
         async function loadMovies() {
             const response = await api.get(`/${location}/partnership/home`);
 
@@ -50,6 +37,20 @@ export default function Main() {
         loadMovies();
     }, [location]);
 
+    useEffect(() => {
+        const moviesTemp = JSON.parse(localStorage.getItem('movies'));
+
+        if (moviesTemp) {
+            const result = moviesTemp.filter(m => {
+                return m.event.title
+                    .toLowerCase()
+                    .includes(search.toLowerCase());
+            });
+
+            setMovies(result);
+        }
+    }, [search]);
+
     return (
         <>
             <Header />
@@ -58,7 +59,7 @@ export default function Main() {
                     <Filter>
                         <FilterRight>
                             <div>
-                                <MdSearch color="#ff890d" size={24} />
+                                <MdSearch color="#ff890d" size={30} />
                                 <input
                                     type="text"
                                     placeholder="Buscar"
@@ -67,7 +68,7 @@ export default function Main() {
                                 />
                             </div>
                             <div>
-                                <MdRoom color="#ff890d" size={24} />
+                                <MdRoom color="#ff890d" size={30} />
                                 <select
                                     value={location}
                                     onChange={e =>
@@ -80,33 +81,39 @@ export default function Main() {
                             </div>
                         </FilterRight>
                     </Filter>
-                    <span>Em Cartaz</span>
 
                     {movies.length > 0 ? (
-                        <MovieList>
-                            {movies.map(movie => (
-                                <li key={movie.event.id}>
-                                    <div>
-                                        <Link to={`/details/${movie.event.id}`}>
-                                            {movie.event.images
-                                                .filter(
-                                                    x =>
-                                                        x.type ===
-                                                        'PosterPortrait'
-                                                )
-                                                .map(image => (
-                                                    <img
-                                                        src={image.url}
-                                                        alt={movie.title}
-                                                    />
-                                                ))}
+                        <BackgroundMovies>
+                            <span>Em Cartaz</span>
+                            <MovieList>
+                                {movies.map(movie => (
+                                    <li key={movie.event.id}>
+                                        <div>
+                                            <Link
+                                                to={`/details/${movie.event.id}`}
+                                            >
+                                                {movie.event.images
+                                                    .filter(
+                                                        x =>
+                                                            x.type ===
+                                                            'PosterPortrait'
+                                                    )
+                                                    .map(image => (
+                                                        <img
+                                                            src={image.url}
+                                                            alt={movie.title}
+                                                        />
+                                                    ))}
 
-                                            <strong>{movie.event.title}</strong>
-                                        </Link>
-                                    </div>
-                                </li>
-                            ))}
-                        </MovieList>
+                                                <strong>
+                                                    {movie.event.title}
+                                                </strong>
+                                            </Link>
+                                        </div>
+                                    </li>
+                                ))}
+                            </MovieList>
+                        </BackgroundMovies>
                     ) : (
                         <ContainerError>
                             <h2>Não encontramos nenhuma sessão :(</h2>

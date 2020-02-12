@@ -58,43 +58,67 @@ export const FilterRight = styled.div`
     display: flex;
     align-items: center;
 
-    input {
-        width: 160px;
-        border: 1px solid #4c4c4c;
-        height: 30px;
-        padding: 0 30px 0 12px;
-        border-radius: 4px;
-        color: #f2f2f2;
-        font-size: 12px;
-        background: #252525 url('../../assets/images/lupe.png') no-repeat 190px
-            center;
-    }
+    div {
+        margin-left: 16px;
 
-    select {
-        width: 160px;
-        border: 1px solid #4c4c4c;
-        height: 30px;
-        padding: 0 30px 0 12px;
-        border-radius: 4px;
-        color: #f2f2f2;
-        font-size: 12px;
-        background: #252525;
+        input {
+            width: 160px;
+            border: 1px solid #4c4c4c;
+            height: 30px;
+            padding: 0 30px 0 12px;
+            border-radius: 4px;
+            color: #f2f2f2;
+            font-size: 12px;
+            background: #252525;
+        }
+
+        select {
+            width: 160px;
+            border: 1px solid #4c4c4c;
+            height: 30px;
+            padding: 0 30px 0 12px;
+            border-radius: 4px;
+            color: #f2f2f2;
+            font-size: 12px;
+            background: #252525;
+        }
     }
+`;
+
+export const BackgroundMovies = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    background: #252525;
+    border-radius: 4px;
+    padding: 10px;
 `;
 
 export const MovieList = styled.ul`
     list-style: none;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     border-top: 1px solid #4c4c4c;
-    padding-top: 30px;
+    padding-top: 25px;
     margin-top: 16px;
+
+    div:hover {
+        img {
+            opacity: 0.5;
+        }
+
+        strong {
+            color: #ff890d;
+        }
+    }
 
     div {
         display: flex;
         flex-direction: column;
-        width: 178px;
-        height: 241px;
+        width: 162px;
+        height: 182px;
+        box-shadow: 0 1px 1px rgba(25, 25, 25, 0.25);
 
         img {
             width: 100%;
@@ -108,6 +132,9 @@ export const MovieList = styled.ul`
         strong {
             color: #f2f2f2;
             margin-top: 10px;
+        }
+
+        a {
             text-decoration: none;
         }
     }

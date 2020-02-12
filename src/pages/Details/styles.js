@@ -12,7 +12,6 @@ export const ContainerCentral = styled.div`
 `;
 
 export const ContainerBanner = styled.div`
-
     img {
         width: 100%;
         margin-top: -97px;
@@ -69,9 +68,8 @@ export const Sinopse = styled.div`
         flex-wrap: wrap;
         flex-direction: column;
 
-
         strong {
-            color: #3478C1;
+            color: #3478c1;
             font-size: 16px;
             margin-bottom: 8px;
         }
@@ -95,7 +93,7 @@ export const Cast = styled.div`
         padding: 0 16px 18px 0;
 
         strong {
-            color: #3478C1;
+            color: #3478c1;
             font-size: 16px;
         }
 
@@ -120,14 +118,13 @@ export const TrailerList = styled.ul`
         embed {
             height: 320px;
             width: 100%;
-
         }
 
         span {
             color: #ff890d;
             font-weight: bold;
             font-size: 22px;
-            margin: 12px
+            margin: 12px;
         }
 
         div {
@@ -141,7 +138,6 @@ export const TrailerList = styled.ul`
         }
     }
 `;
-
 
 export const FilterLeft = styled.ul`
     display: flex;
