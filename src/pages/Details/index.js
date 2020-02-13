@@ -15,6 +15,7 @@ import {
     ContainerCentral,
     Sinopse,
     ContainerBanner,
+    ContainerTrailer,
 } from './styles';
 
 import Header from '../../components/Header';
@@ -138,7 +139,7 @@ export default class Details extends Component {
                                     </DetailsMovie>
 
                                     {movie.event.trailers && (
-                                        <>
+                                        <ContainerTrailer>
                                             <TrailerList>
                                                 {movie.event.trailers.map(
                                                     (trailer, index) => (
@@ -158,7 +159,7 @@ export default class Details extends Component {
                                                     )
                                                 )}
                                             </TrailerList>
-                                        </>
+                                        </ContainerTrailer>
                                     )}
                                 </div>
                             ))}

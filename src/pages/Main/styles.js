@@ -91,13 +91,13 @@ export const BackgroundMovies = styled.div`
 
     background: #252525;
     border-radius: 4px;
-    padding: 10px;
+    padding: 16px 24px 24px 24px;
+    margin-top: 52px;
 `;
 
 export const MovieList = styled.ul`
     list-style: none;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     border-top: 1px solid #4c4c4c;
     padding-top: 25px;
@@ -105,37 +105,78 @@ export const MovieList = styled.ul`
 
     div:hover {
         img {
-            opacity: 0.5;
-        }
-
-        strong {
-            color: #ff890d;
-        }
-    }
-
-    div {
-        display: flex;
-        flex-direction: column;
-        width: 162px;
-        height: 182px;
-        box-shadow: 0 1px 1px rgba(25, 25, 25, 0.25);
-
-        img {
-            width: 100%;
-            height: 100%;
+            -moz-transform: scale(1.1);
+	        -webkit-transform: scale(1.1);
+	        transform: scale(1.1);
         }
     }
 
     li {
-        margin: 0 25px 124px 0;
+        margin-bottom: 152px;
 
         strong {
             color: #f2f2f2;
-            margin-top: 10px;
         }
 
         a {
             text-decoration: none;
         }
     }
+`;
+
+export const Movie = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 172px;
+    height: 182px;
+    box-shadow: 0 1px 1px rgba(25, 25, 25, 0.25);
+    margin: 0 11px 0 11px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 16px;
+        transition: background 0.3s;
+        box-shadow: 3px 3px 5px #000000;
+
+        max-width: 100%;
+	    -moz-transition: all 0.5s;
+	    -webkit-transition: all 0.5s;
+	    transition: all 0.3s;
+
+        &:first-child {
+            height: 273px;
+        }
+    }
+`;
+
+export const Tags = styled.div`
+    margin: 10px 0 22px 8px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    span {
+        border: 1px solid #f2f2f2;
+        font-weight: bold;
+        font-size: 13px;
+        background: #ff890d;
+        padding: 2px;
+        transform: skew(-10deg);
+        color: #000;
+        width: 76px;
+        text-align: center;
+        margin-bottom: 8px;
+
+    }
+`;
+
+export const Loading = styled.div`
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 `;

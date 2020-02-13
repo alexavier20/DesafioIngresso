@@ -7,7 +7,7 @@ export const Container = styled.div`
 `;
 
 export const ContainerCentral = styled.div`
-    width: 1020px;
+    width: 100%;
     height: 100%;
 `;
 
@@ -28,7 +28,7 @@ export const DetailsMovie = styled.div`
         height: 222px;
         width: 222px;
         border: 4px solid #f2f2f2;
-        margin-left: 38px;
+        margin-left: 82px;
     }
 `;
 
@@ -51,9 +51,11 @@ export const TagList = styled.ul`
 
     span {
         font-weight: bold;
+        border: 1px solid #f2f2f2;
         background: #ff890d;
         padding: 4px;
         margin: 0 8px 66px 0;
+        transform: skew(-10deg);
     }
 `;
 
@@ -62,8 +64,10 @@ export const Sinopse = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 32px;
+    width: 665px;
 
     div {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -84,13 +88,14 @@ export const Cast = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin-top: 16px;
+    width: 80%;
 
     div {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         width: 280px;
-        padding: 0 16px 18px 0;
+        padding: 0 10px 18px 0;
 
         strong {
             color: #3478c1;
@@ -103,11 +108,18 @@ export const Cast = styled.div`
     }
 `;
 
+export const ContainerTrailer = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+`;
+
 export const TrailerList = styled.ul`
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     margin: 16px 0 32px 0;
+    width: 820px;
 
     li {
         display: flex;
