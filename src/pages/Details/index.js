@@ -3,6 +3,7 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
 
+import { MdMovie } from 'react-icons/md';
 import Loading from '../../components/Loading';
 import Footer from '../../components/Footer';
 
@@ -20,6 +21,7 @@ import {
     ContainerBanner,
     ContainerTrailer,
     TitleMovie,
+    ContainerBackground,
 } from './styles';
 
 import Header from '../../components/Header';
@@ -174,18 +176,20 @@ export default class Details extends Component {
                                                     {movie.event.trailers.map(
                                                         (trailer, index) => (
                                                             <li key={index + 1}>
-                                                                <div>
-                                                                    <span>
-                                                                        Trailer{' '}
-                                                                        {index +
-                                                                            1}
-                                                                    </span>
+                                                                <ContainerBackground>
+                                                                    <div>
+                                                                        <MdMovie color="#ff890d" size={30} />
+                                                                        <span>
+                                                                            Trailer{' '}
+                                                                            {index + 1}
+                                                                        </span>
+                                                                    </div>
                                                                     <embed
                                                                         src={
                                                                             trailer.embeddedUrl
                                                                         }
                                                                     />
-                                                                </div>
+                                                                </ContainerBackground>
                                                             </li>
                                                         )
                                                     )}

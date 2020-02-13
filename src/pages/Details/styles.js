@@ -65,7 +65,7 @@ export const Sinopse = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 32px;
-    width: 665px;
+    width: 668px;
 
     div {
         width: 100%;
@@ -137,17 +137,23 @@ export const TrailerList = styled.ul`
             color: #ff890d;
             font-weight: bold;
             font-size: 22px;
-            margin: 12px;
+            margin-left: 8px;
         }
+    }
+`;
 
-        div {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background: #252525;
-            padding: 24px;
-            border-radius: 4px;
-        }
+export const ContainerBackground = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #252525;
+    padding: 24px;
+    border-radius: 4px;
+
+    div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
     }
 `;
 
