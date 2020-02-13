@@ -109,6 +109,11 @@ export const MovieList = styled.ul`
 	        -webkit-transform: scale(1.1);
 	        transform: scale(1.1);
         }
+        span{
+            -moz-transform: scale(1.1);
+	        -webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+        }
     }
 
     li {
@@ -155,14 +160,16 @@ export const Tags = styled.div`
     display: flex;
     flex-direction: column;
     position: absolute;
+    z-index:2;
+
+
 
     span {
-        border: 1px solid #f2f2f2;
+
         font-weight: bold;
         font-size: 13px;
         background: #ff890d;
         padding: 2px;
-        transform: skew(-10deg);
         color: #000;
         width: 76px;
         text-align: center;

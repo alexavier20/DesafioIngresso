@@ -51,11 +51,9 @@ export const TagList = styled.ul`
 
     span {
         font-weight: bold;
-        border: 1px solid #f2f2f2;
         background: #ff890d;
         padding: 4px;
         margin: 0 8px 66px 0;
-        transform: skew(-10deg);
     }
 `;
 
