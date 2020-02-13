@@ -21,7 +21,6 @@ export const ContainerBanner = styled.div`
 export const DetailsMovie = styled.div`
     display: flex;
     justify-content: center;
-    margin-top: -135px;
 
     img {
         border-radius: 50%;
@@ -29,6 +28,7 @@ export const DetailsMovie = styled.div`
         width: 222px;
         border: 4px solid #f2f2f2;
         margin-left: 82px;
+        margin-top: -122px;
     }
 `;
 
@@ -45,15 +45,18 @@ export const InformationMovie = styled.div`
     }
 `;
 
+export const TitleMovie = styled.div`
+    margin-top: 8px;
+`;
+
 export const TagList = styled.ul`
     display: flex;
-    margin-bottom: 12px;
 
     span {
         font-weight: bold;
         background: #ff890d;
         padding: 4px;
-        margin: 0 8px 66px 0;
+        margin: 0 8px 16px 0;
     }
 `;
 

@@ -92,66 +92,74 @@ export default function Main() {
                                             <option value="2">
                                                 Rio de Janeiro
                                             </option>
-                                            <option value="55555">
-                                                Rieiro
+                                            <option value="999">
+                                                Minas Gerais
                                             </option>
                                         </select>
                                     </div>
                                 </FilterRight>
                             </Filter>
-
-                            {movies.length > 0 ? (
-                                <BackgroundMovies>
-                                    <span>Em Cartaz</span>
-                                    <MovieList>
-                                        {movies.map(movie => (
-                                            <li key={movie.event.id}>
-                                                <Movie>
-                                                    <Tags>
-                                                        {movie.event.tags.map(
-                                                            t => (
-                                                                <span key={t}>
-                                                                    {t}
-                                                                </span>
-                                                            )
-                                                        )}
-                                                    </Tags>
-                                                    <Link
-                                                        to={`/details/${movie.event.id}`}
-                                                    >
-                                                        {movie.event.images
-                                                            .filter(
-                                                                x =>
-                                                                    x.type ===
-                                                                    'PosterPortrait'
-                                                            )
-                                                            .map(image => (
-                                                                <>
-                                                                    <img
-                                                                        src={
-                                                                            image.url
-                                                                        }
-                                                                        alt={
-                                                                            movie.title
-                                                                        }
-                                                                    />
-                                                                </>
-                                                            ))}
-                                                        <strong>
-                                                            {movie.event.title}
-                                                        </strong>
-                                                    </Link>
-                                                </Movie>
-                                            </li>
-                                        ))}
-                                    </MovieList>
-                                </BackgroundMovies>
-                            ) : (
-                                <ContainerError>
-                                    <h2>Não encontramos nenhuma sessão :(</h2>
-                                    <img src={error} alt="alt" />
-                                </ContainerError>
-                            )}
+                            <BackgroundMovies>
+                                {movies.length > 0 ? (
+                                    <>
+                                        <span>Em Cartaz</span>
+                                        <MovieList>
+                                            {movies.map(movie => (
+                                                <li key={movie.event.id}>
+                                                    <Movie>
+                                                        <Tags>
+                                                            {movie.event.tags.map(
+                                                                t => (
+                                                                    <span
+                                                                        key={t}
+                                                                    >
+                                                                        {t}
+                                                                    </span>
+                                                                )
+                                                            )}
+                                                        </Tags>
+                                                        <Link
+                                                            to={`/details/${movie.event.id}`}
+                                                        >
+                                                            {movie.event.images
+                                                                .filter(
+                                                                    x =>
+                                                                        x.type ===
+                                                                        'PosterPortrait'
+                                                                )
+                                                                .map(image => (
+                                                                    <>
+                                                                        <img
+                                                                            src={
+                                                                                image.url
+                                                                            }
+                                                                            alt={
+                                                                                movie.title
+                                                                            }
+                                                                        />
+                                                                    </>
+                                                                ))}
+                                                            <strong>
+                                                                {
+                                                                    movie.event
+                                                                        .title
+                                                                }
+                                                            </strong>
+                                                        </Link>
+                                                    </Movie>
+                                                </li>
+                                            ))}
+                                        </MovieList>
+                                    </>
+                                ) : (
+                                    <ContainerError>
+                                        <h2>
+                                            Não encontramos nenhuma sessão :(
+                                        </h2>
+                                        <img src={error} alt="alt" />
+                                    </ContainerError>
+                                )}
+                            </BackgroundMovies>
                         </ContainerCentral>
                     </Content>
                 </>

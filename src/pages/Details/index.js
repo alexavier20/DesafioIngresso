@@ -19,6 +19,7 @@ import {
     Sinopse,
     ContainerBanner,
     ContainerTrailer,
+    TitleMovie,
 } from './styles';
 
 import Header from '../../components/Header';
@@ -63,7 +64,9 @@ export default class Details extends Component {
                                                     'PosterHorizontal'
                                             )
                                             .map(image => (
-                                                <ContainerBanner>
+                                                <ContainerBanner
+                                                    key={image.title}
+                                                >
                                                     <img
                                                         src={image.url}
                                                         alt={movie.title}
@@ -80,20 +83,25 @@ export default class Details extends Component {
                                                 )
                                                 .map(image => (
                                                     <img
+                                                        key={image.url}
                                                         src={image.url}
                                                         alt={movie.title}
                                                     />
                                                 ))}
 
                                             <InformationMovie>
-                                                <h1>{movie.event.title}</h1>
-                                                <TagList>
-                                                    {movie.event.tags.map(
-                                                        tag => (
-                                                            <span>{tag}</span>
-                                                        )
-                                                    )}
-                                                </TagList>
+                                                <TitleMovie>
+                                                    <h1>{movie.event.title}</h1>
+                                                    <TagList>
+                                                        {movie.event.tags.map(
+                                                            tag => (
+                                                                <span>
+                                                                    {tag}
+                                                                </span>
+                                                            )
+                                                        )}
+                                                    </TagList>
+                                                </TitleMovie>
                                                 <Sinopse>
                                                     <div>
                                                         <strong>Sinopse</strong>

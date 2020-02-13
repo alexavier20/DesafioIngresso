@@ -5,12 +5,12 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    padding: 8px;
+    padding: 6px;
     position: relative;
 
     img {
-        width: 48px;
-        height: 48px;
+        width: 42px;
+        height: 42px;
         margin-left: 30px;
     }
 `;
