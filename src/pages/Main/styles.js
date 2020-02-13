@@ -2,6 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+`;
+
+export const Content = styled.div`
+    display: flex;
     align-items: center;
     justify-content: center;
 `;
@@ -106,13 +112,13 @@ export const MovieList = styled.ul`
     div:hover {
         img {
             -moz-transform: scale(1.1);
-	        -webkit-transform: scale(1.1);
-	        transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
         }
-        span{
+        span {
             -moz-transform: scale(1.1);
-	        -webkit-transform: scale(1.1);
-	        transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
         }
     }
 
@@ -145,9 +151,9 @@ export const Movie = styled.div`
         box-shadow: 3px 3px 5px #000000;
 
         max-width: 100%;
-	    -moz-transition: all 0.5s;
-	    -webkit-transition: all 0.5s;
-	    transition: all 0.3s;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.3s;
 
         &:first-child {
             height: 273px;
@@ -160,12 +166,9 @@ export const Tags = styled.div`
     display: flex;
     flex-direction: column;
     position: absolute;
-    z-index:2;
-
-
+    z-index: 2;
 
     span {
-
         font-weight: bold;
         font-size: 13px;
         background: #ff890d;
@@ -174,7 +177,6 @@ export const Tags = styled.div`
         width: 76px;
         text-align: center;
         margin-bottom: 8px;
-
     }
 `;
 

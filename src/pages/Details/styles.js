@@ -138,7 +138,6 @@ export const TrailerList = styled.ul`
         }
 
         div {
-            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
